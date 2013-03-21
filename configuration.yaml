@@ -1,0 +1,3 @@
+production:
+    snippet_db:
+        foo: bar
