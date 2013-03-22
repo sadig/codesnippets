@@ -1,3 +1,9 @@
-production:
-    snippet_db:
-        foo: bar
+codesnippets:
+        databases:
+                codesnippets:          
+                        host: localhost
+                        port: 27017
+                        user:
+                        pw:
+
+

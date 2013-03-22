@@ -7,7 +7,8 @@ import os.path
 try:
     import yaml
 except ImportError as e:
-    print(e)
+    print('You did not install the PyYaml module')
+    print(('Exception in file {0}: {1}'.format(__file__, e)))
     sys.exit(1)
 
 from .exceptions import ConfigurationException

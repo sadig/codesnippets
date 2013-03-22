@@ -6,7 +6,7 @@ try:
     from codesnippets.lib import Configuration
 except ImportError as e:
     print('You did not install codesnippets correctly')
-    print(('Exception: {0}'.format(e)))
+    print(('Exception in file {0}: {1}'.format(__file__, e)))
     sys.exit(1)
 
 
